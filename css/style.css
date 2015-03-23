@@ -1,25 +1,67 @@
+*{ margin:0; padding:0; box-sizing:border-box; }
 body{
-	background-color:#DEFFDE;
-	color:#222222;
-	font-family:Arial,sans-serif;
-	text-align:center;
+   background-color:rgba(110, 255, 132, .5);   
+   background-image:url("images/avocadotoast.jpg"), url("images/smoothiebowl.jpg");
+   background-attachment:fixed;
+   background-size:cover;
+   background-repeat: no-repeat;
+   font-size:16px;
+   color:#222222;
+   text-align:left;
+   font-family: 'Archivo Narrow', sans-serif;   width: 95%;
+   line-height: 1.4;
+}
+div{
+	box-sizing:border-box;
+	height:57em;
+	width:45em;
+	padding:0 0 0 1.2em;
+	border: .2em solid #FF3E6A;
+	margin:1em 0 1em 1em;
+	background-color:#fff;
+	display: block;
+	float:left;
+}
+#sidebar{
+	height:15em;
+	width:15em;
+	padding:0 0 0 1.2em;
+	margin:1em 1em 0 0;
+	background-color:#fff;
+	border: .2em solid #FF3E6A;
+	float:right;
+	display:block;
 }
 h1{
-	color:#7FC542;
-	font-size:48px;
-	text-transform:uppercase;
+  color:#29B23E;
+  font-size:3em;
+  font-family: 'Megrim', cursive;
+}
+h2{
+  color:#29B23E;
+  font-size:2em;
+  font-family: 'Megrim', cursive;
+}
+p{
+  line-height:1.3em;
 }
 #slogan{
-	font-style:italic;
-	text-transform:uppercase;
-	color:#FF457D;
-	font-size:24px;
-	font-weight:bold;
+  color:#FF6E90;
+  font-size:1.5em;
+  font-weight:500;
 }
 ul{
-	text-transform:uppercase;
-	text-align:center;
-	list-style: none;
-	font-weight:bold;
-	color:#FF457D;
+  line-height:1.5em;
+  text-transform:uppercase;
+  list-style: none;
+  font-weight:500;
+  color:#FF6E90;
+}
+img {
+	height:37em;
+	width:37em;
+}
+#biophoto {
+	height:8em;
+	width:8em;
 }
