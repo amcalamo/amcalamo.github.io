@@ -5,6 +5,7 @@ body{
    background-attachment:fixed;
    background-size:cover;
    background-repeat: no-repeat;
+   background-color: rgba(140, 198, 63, .8);
    font-size:16px;
    font-family: 'Roboto', sans-serif; 
    line-height: 1.4;
@@ -66,7 +67,6 @@ ul{
   padding:0;
   text-align:center;
   font-size:1.5em;
-  text-transform:uppercase;
 }
 img {
 	display:block;
