@@ -1,69 +1,82 @@
-*{ margin:0; padding:0; box-sizing:border-box; }
+*{ margin:0; padding:0; border-box:box-sizing; }
 body{
-   background-color:rgba(110, 255, 132, .5);   
-   background-image:url("images/avocadotoast.jpg"), url("images/smoothiebowl.jpg");
+   color:#222;
+   background-image:url('images/wheatgrassmain.jpg');
    background-attachment:fixed;
    background-size:cover;
    background-repeat: no-repeat;
    font-size:16px;
-   color:#222222;
-   text-align:left;
-   font-family: 'Archivo Narrow', sans-serif;   width: 95%;
+   font-family: 'Roboto', sans-serif; 
    line-height: 1.4;
 }
-div{
-	box-sizing:border-box;
-	height:57em;
-	width:45em;
-	padding:1.2em 0 0 1.2em;
-	border: .2em solid #FF3E6A;
-	margin:1em 0 1em 1em;
-	background-color:#fff;
-	display: block;
-	float:left;
+#hook {
+	color:#fff;
+	padding:.8em 0 0 .8em;
+    margin:.2em;
+    text-transform:uppercase;
 }
-#sidebar{
-	height:15em;
-	width:15em;
-	padding:1.2em 0 0 1.2em;
-	margin:1em 1em 0 0;
-	background-color:#fff;
-	border: .2em solid #FF3E6A;
-	float:right;
-	display:block;
+#define {
+  margin:.5em 0;
+  padding:.5em 0;
+  text-align:center;
+  background:#F3F4F5;
+}
+#slogan{
+  font-size:1.5em;
+  font-weight:500;
+}
+#team {
+	background:#F3F4F5;
+}
+.farmers {
+	width:33.33%;
+	text-align:center;
 }
 h1{
-    color:#29B23E;
     font-size:5em;
     font-weight:3em;
-    font-family: 'Megrim', cursive;
+    font-family: 'Glegoo', serif;
+    padding: .8em 0 0 .8em;
     margin:.2em;
+    color:#fff;
 }
 h2{
-  color:#29B23E;
-  font-size:2em;
-  font-family: 'Megrim', cursive;
+  font-size:3.5em;
+  font-family: 'Glegoo', serif;
+  padding: .5em 0;
+  text-align:center;
+}
+h3{
+	font-size:2.5em;
+	color:#3B3B3B;
+	padding: 0 .8em;
+}
+h4{
+	font-size:1.5em;
+	color:#8CC63F;
+	padding: 0 .8em;
 }
 p{
   line-height:1.3em;
 }
-#slogan{
-  color:#FF6E90;
-  font-size:1.5em;
-  font-weight:500;
-}
 ul{
   line-height:1.5em;
-  text-transform:uppercase;
   list-style: none;
-  font-weight:500;
-  color:#FF6E90;
+  margin:0;
+  padding:0;
+  text-align:center;
+  font-size:1.5em;
+  text-transform:uppercase;
 }
 img {
-	height:37em;
-	width:37em;
+	display:block;
+	margin:0 auto;
 }
-#biophoto {
-	height:8em;
-	width:8em;
+#contact {
+	text-align:center;
+	padding: .5em 0;
+}
+footer{
+	text-align:center;
+	padding:1em 0;
 }
