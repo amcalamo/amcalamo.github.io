@@ -15,6 +15,27 @@ body{
 	margin:.2em;
 	text-transform:uppercase;
 }
+#nav{
+  background-color: #C0C0C0;
+  max-width: 100%;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+}
+nav{
+  font-size: 1.8em;
+  width: 100%;
+}
+nav a{
+  background-color: rgba(107,179,34,.8);
+  border-radius: .5em;
+  color: #fff;
+  display: block;
+  float: left;
+  padding: 1%;
+  margin: 1em 2em;
+  text-decoration: none;
+  text-align: center;
+}
 #define {
   margin:.5em 0;
   padding:.5em 0;
@@ -31,6 +52,7 @@ body{
 .farmers {
 	width:33.33%;
 	text-align:center;
+  float:left;
 }
 h1{
     font-size:5em;
@@ -79,3 +101,11 @@ footer{
 	text-align:center;
 	padding:1em 0;
 }
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
