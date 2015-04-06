@@ -39,8 +39,6 @@ h1{
 #nav{
   	background-color: #C0C0C0;
   	max-width: 100%;
-  	border-bottom: 3px solid #222222;
-  	border-top: 3px solid #222222;
   	margin: 0 auto;
 }
 nav{
@@ -60,7 +58,7 @@ nav a{
   	font-weight: bold;
 }
 a:hover{
-	color: #222222;
+	background-color: #222222;
 }
 h2{
 	font-size: 3.5em;
