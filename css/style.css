@@ -58,6 +58,7 @@ h4{
 }
 p{
   line-height:1.3em;
+  padding-bottom: .8em;
 }
 ul{
   list-style: none;
@@ -118,6 +119,7 @@ img {
 }
 .share a {
   text-decoration:none;
+  color:#151C71;
 }
 .photo img {
   width:100%;
