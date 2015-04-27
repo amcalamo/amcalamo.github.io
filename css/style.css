@@ -146,10 +146,14 @@ footer{
     width:auto;
   }
   #logo{
-    width:30%;
+    float:none;
+    width:auto;
+    text-align:center;
   }
   nav{
-    width:70%;
+    float:none;
+    width:auto;
+    text-align:center;
   }
 }
 @media only screen and (max-width:480px){
@@ -162,19 +166,9 @@ footer{
   h4{
     font-size:1.2em;
   }
-  #logo{
-    float:none;
-    width:auto;
-    text-align:center;
-  }
   nav a{
     float:none;
     width:auto;
-  }
-  nav{
-    float:none;
-    width:auto;
-    text-align:center;
   }
   #slogan{
     width:90%;
