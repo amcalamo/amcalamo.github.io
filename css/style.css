@@ -14,17 +14,16 @@ header{
 }
 #logo{
   float:left;
-  width: 35%;
+  width: 47%;
 }
 nav{
   font-size: 1.8em;
   float: right;
-  width: 65%;
+  width: 53%;
   margin: .5em 0;
 }
 nav a{
   color: #8cc63f;
-  float: right;
   text-decoration: none;
   text-align: center;
   font-size: .7em;
